@@ -1,0 +1,13 @@
+.bar {
+  background-color: var(--yellow);
+  width: 100%;
+  box-sizing: border-box;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 10px 40px 10px;
+  position: fixed;
+}
+.bar__library {
+  font-size: 20px;
+}

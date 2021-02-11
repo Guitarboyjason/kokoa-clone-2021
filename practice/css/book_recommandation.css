@@ -1,0 +1,64 @@
+.book--recommand {
+  position: relative;
+  padding: 10px;
+  top: 100px;
+}
+.book--recommand__img {
+  width: 110px;
+  height: 160px;
+  border-radius: 10px;
+}
+.book--recommand__others {
+  padding: 0 15px;
+}
+.book--recommand__others__head {
+  font-size: 25px;
+  font-weight: 300;
+}
+.book--recommand__others__author {
+  opacity: 0.3;
+  padding: 10px 0;
+  display: flex;
+}
+.book--recommand__others__stars {
+  color: var(--yellow);
+}
+.book--recommand__others__stars i {
+  margin: 0 5px;
+}
+.book--recommand__others__expain {
+  padding: 15px 0;
+}
+.book--recommand__others__expain button {
+  border: none;
+  padding: 5px 15px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+.book--recommand__others__otherbtn {
+  justify-content: space-between;
+}
+
+.book--recommand__others__otherbtn button:first-child {
+  height: 30px;
+  width: 30px;
+  background-color: var(--yellow);
+  border-radius: 50%;
+  border: none;
+}
+.book--recommand__others__otherbtn button:nth-child(2) {
+  height: 30px;
+  width: 100px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+}
+div[class*="horizontal"] {
+  display: flex;
+  flex-direction: column;
+}
+div[class*="vertical"] {
+  display: flex;
+  flex-direction: row;
+}

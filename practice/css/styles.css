@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+@import "reset.css";
+@import "variables.css";
+@import "bar.css";
+@import "search.css";
+@import "book_recommandation.css";
+@import "top_adventures.css";
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.popular_authors {
+  position: relative;
+  top: 100px;
+  padding: 10px;
+}
+.popular_authors__block img {
+  width: 95px;
+  height: 115px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.popular_authors__block__paragraph__title {
+  font-size: 20px;
+  padding: 5px;
+}
+.popular_authors__block__paragraph__blabla {
+  padding: 5px;
+  opacity: 0.3;
+}

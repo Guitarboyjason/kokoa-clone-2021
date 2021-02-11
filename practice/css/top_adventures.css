@@ -1,0 +1,19 @@
+.top_adventures {
+  padding: 10px;
+  position: relative;
+  top: 100px;
+}
+.top_adventures__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 25px;
+}
+.top_adventures__block img {
+  width: 67px;
+  height: 102px;
+  border-radius: 10px;
+}
+.top_adventures__block__stars {
+  color: var(--yellow);
+}
