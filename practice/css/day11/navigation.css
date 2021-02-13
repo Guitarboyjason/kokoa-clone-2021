@@ -1,0 +1,10 @@
+.navigations {
+  justify-content: space-between;
+  width: inherit;
+  height: 18px;
+  margin: 26px 22px;
+  box-sizing: border-box;
+}
+.navigations__icon {
+  padding: 5px 20px;
+}

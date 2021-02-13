@@ -1,0 +1,38 @@
+.songs-block {
+  align-items: center;
+  margin: 12px 0 12px 35px;
+  width: 245px;
+  position: relative;
+  box-sizing: border-box;
+}
+.songs-block:hover {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.songs-block__img {
+  width: 35px;
+  height: 35px;
+  border-radius: 8px;
+  justify-self: start;
+  margin-right: 15px;
+}
+
+.songs-block__text {
+  width: 56%;
+  justify-self: start;
+}
+.songs-block__text__singer {
+  font-size: 12px;
+  color: var(--gray);
+  padding-bottom: 5px;
+}
+.songs-block__text__title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.songs-block span i {
+  padding: 0 13px;
+  color: var(--gray);
+}

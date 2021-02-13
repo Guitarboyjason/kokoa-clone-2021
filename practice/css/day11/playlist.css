@@ -1,0 +1,56 @@
+.playlist {
+  align-items: center;
+}
+.playlist__thumbnail {
+  width: 69px;
+  height: 69px;
+  border-radius: 50%;
+  box-shadow: 0px 5px 20px #92b4b7;
+  margin: 0 0 30px 0;
+}
+.playlist__singer {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.playlist__genre {
+  font-size: 12px;
+  margin-top: 11px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.btns {
+  align-items: center;
+  padding: 30px 0;
+  justify-content: space-between;
+}
+
+.btns__shuffle {
+  width: 93px;
+  height: 35px;
+  background-color: black;
+  border-radius: 36px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  margin: 0 8px;
+}
+.btns__heart {
+  width: 93px;
+  height: 35px;
+  background-color: white;
+  border-radius: 36px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.btns__heart i {
+  padding: 5px;
+}
