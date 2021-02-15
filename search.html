@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find - Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification">1</span>
+            <i class="fas fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="search.html">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#">
+            <div class="nav__noti"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Find</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i> </span>
+        <span class="header-cog"
+          ><i class="fas fa-cog fa-lg"></i>
+          <div class="nav__noti"></div>
+        </span>
+      </div>
+    </header>
+
+    <main class="find-screen">
+      <div class="find-header">
+        <div class="find-items">
+          <span class="find-items__qrcode"
+            ><i class="fas fa-qrcode fa-2x"></i
+          ></span>
+          <span>QR Code</span>
+        </div>
+        <div class="find-items">
+          <span class="find-items__contacts"
+            ><i class="far fa-address-book fa-2x"></i
+          ></span>
+          <span>Add by<br />Contacts</span>
+        </div>
+        <div class="find-items">
+          <span class="find-items__id"
+            ><i class="fas fa-fingerprint fa-2x"></i
+          ></span>
+          <span>Add by ID</span>
+        </div>
+        <div class="find-items">
+          <span class="find-items__invite"
+            ><i class="far fa-envelope fa-2x"></i
+          ></span>
+          <span>Invite</span>
+        </div>
+      </div>
+
+      <div class="recommend">
+        <span>Recommended Friends</span>
+        <div class="recommend__friends">
+          <span>You have no recommended friends.</span>
+        </div>
+      </div>
+      <div class="open-chat">
+        <div class="open-chat--header">
+          <span>Open Chat</span>
+          <span
+            >Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i
+          ></span>
+        </div>
+
+        <div class="open-chat--block">
+          <div class="open-chat--block__texts">
+            <span class="open-chat--block__texts__title">SAAY</span>
+            <span class="open-chat--block__texts__hashs"
+              >#Perfect#Singer#InThisWorld</span
+            >
+            <div class="open-chat--block__members">
+              <img src="practice/screenshots/SWEATY.jfif" />
+              <span class="open-chat--block__members__text">
+                99,999 members | <span class="active">Active</span>
+              </span>
+            </div>
+          </div>
+          <div class="open-chat--block__thumbnail">
+            <img src="practice/screenshots/saay(1).jfif" />
+            <div class="open-chat--block__thumbnail__hearts">♥ 999</div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/b7dd658bdd.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--script only in last-->
+  </body>
+</html>

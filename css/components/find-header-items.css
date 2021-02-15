@@ -1,0 +1,28 @@
+.find-screen {
+  padding: 0 16px;
+  overflow-y: hidden;
+}
+
+.find-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.find-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  height: 72px;
+  padding-bottom: 15px;
+}
+.find-items span i {
+  padding: 0 24px 24px 24px;
+}
+.find-items span i {
+  padding-bottom: 18px;
+}
+.find-items span {
+  font-weight: 600;
+}

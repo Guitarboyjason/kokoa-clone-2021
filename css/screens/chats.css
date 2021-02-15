@@ -1,0 +1,32 @@
+.chats-screen {
+  padding: 0 20px;
+}
+.chats {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+.chats__column {
+  position: absolute;
+  right: 0;
+}
+.chats__column__time {
+  display: flex;
+  height: 46px;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.chats__column__time span:first-child {
+  font-size: 15px;
+  color: var(--gray);
+}
+.chats__column__time span:nth-child(2) {
+  width: 20px;
+  height: 20px;
+  font-size: 10px;
+}
+
+.chats__column__time__notification {
+  position: static;
+}

@@ -14,3 +14,21 @@
 .friends-screen {
   padding: 0px var(--horizontal-space);
 }
+.friends-screen__channel {
+  padding: 15px 0;
+  border-top: 1px solid var(--gray);
+  margin: 17px 0 0 0;
+}
+.friends-screen__channel__header {
+  padding: 0 0 15px 0;
+}
+
+.friends-screen__channel__header {
+  position: relative;
+  width: 100%;
+}
+.friends-screen__channel__header span i {
+  position: absolute;
+  right: 0;
+  color: var(--gray);
+}
