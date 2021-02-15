@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats - Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification">1</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="search.html">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="ellipsis.html">
+            <div class="nav__noti"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">More</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i> </span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+      </div>
+    </header>
+    <main class="ellipsis-screen">
+      <div class="user-component ellip_compo">
+        <div class="user-component__column">
+          <img
+            src="nico_picture.jfif"
+            class="user-component__avatar user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Nicolas</h4>
+            <h6 class="user-component__subtitle">
+              +1 787-493-4219 <i class="fas fa-exclamation-circle"></i>
+            </h6>
+          </div>
+          <i class="far fa-comment-alt fa-2x"></i>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+      <div class="ellipsis-first">
+        <div class="ellipsis-items">
+          <span class="ellipsis-items__Calendar"
+            ><i class="far fa-calendar fa-2x"></i
+          ></span>
+          <span>Calendar</span>
+        </div>
+        <div class="ellipsis-items">
+          <span class="ellipsis-items__talk-drive"
+            ><i class="far fa-address-book fa-2x"></i
+          ></span>
+          <span>Talk Drive</span>
+        </div>
+        <div class="ellipsis-items">
+          <span class="ellipsis-items__Emoticons"
+            ><i class="far fa-smile fa-2x"></i
+          ></span>
+          <span>Emoticions</span>
+        </div>
+        <div class="ellipsis-items">
+          <span class="ellipsis-items__themes">
+            <i class="fas fa-brush fa-2x"></i
+          ></span>
+          <span>Themes</span>
+        </div>
+      </div>
+      <div class="ellipsis-second">
+        <div class="ellipsis-items">
+          <span class="ellipsis-items__account"
+            ><i class="far fa-user-circle fa-2x"></i
+          ></span>
+          <span>Account</span>
+        </div>
+
+        <div class="ellipsis-items">
+          <span class="ellipsis-items__openchat"
+            ><i class="far fa-comments fa-2x"></i
+          ></span>
+          <span>Openchat</span>
+        </div>
+      </div>
+
+      <div class="ellipsis-screen__suggestions">
+        <span class="ellipsis-screen__suggestions__header">Suggestions</span>
+        <div class="ellipsis-screen__suggestions__items">
+          <div class="ellipsis-screen__suggestions__block">
+            <img
+              src="screenshots/kokoatalk.png"
+              class="ellipsis-screen__suggestions__img"
+            />
+            <span>Kokoa Story</span>
+          </div>
+          <div class="ellipsis-screen__suggestions__block">
+            <img
+              src="screenshots/kokoatalk.png"
+              class="ellipsis-screen__suggestions__img"
+            />
+            <span>Kokoa friends</span>
+          </div>
+          <div class="ellipsis-screen__suggestions__block">
+            <img
+              src="screenshots/kokoatalk.png"
+              class="ellipsis-screen__suggestions__img"
+            />
+            <span>Kokoa Gem</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/b7dd658bdd.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--script only in last-->
+  </body>
+</html>
